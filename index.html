@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Luis Marin Profile</title>
+</head>
+
+<body>
+    <header>
+        <h1>Luis Angel Marin</h1>
+        <p class="pharagraph">
+            Software Engineer specializing in backend development, with nearly a year of experience building reliable backend solution using Java, MySQL and AWS. <br>
+            I am motivated by self improvement and eager to tacke complex challenges to contribute to building high quality Software. <br>
+            Gamer on my free time and Rock enjoyer. 
+        </p>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="profile">
+            <h2>About me</h2>
+            
+            <div id="profileSummary">
+                <img src="resources/profile.jpg" alt="A profile picture of myself" id="profilePicture">
+
+                <ul id="profileData">
+                    <li>Name: Luis Angel Marin</li>
+                    <li>Age: 23 years old</li>
+                    <li>Degree: Software Engineer</li>
+                    <li>Location: Sonora, México.</li>
+                </ul>
+
+            </div>
+
+            <p class="pharagraph">
+                I'm a Software Engineer who wants to focus its career in backend development but in my free time I am also someone who 
+                likes to play videogames, listen to rock music play guitar and is getting into sci-fi books.
+                <br>
+                I mostly play co-op and competitive games but I tend to play anything as well as music ranging from my first band Muse to Billie Eilish to
+                ballad singer like Diego Verdaguer.
+                <br>
+                Another like of mine is playing music where I play clasic gutiar interpeting mostly clasic and pop music.
+                <br>
+                Lately I got into books starting with DUNE, I bougt it after seeing the movie DUNE.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="socialMedia">
+            <h2>Social Links</h2>
+            <p>Below you can check some of my socials:</p>
+            
+            <div id="socials">
+                <a href="https://www.facebook.com/luis.marin.bg" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/marin.rbg/" target="_blank">Instagram</a>
+                <a href="https://github.com/RowBlackGhost005" target="_blank">Github</a>
+                <a href="https://marinfigueroaluis.blogspot.com/" target="_blank">Blogger (University (Spanish))</a>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section id="contactMe">
+            <h2>Contact Me</h2>
+            <form action="mailto:la.marin@outlook.com" , method="post" , enctype="text/plain" id="contactMeForm">
+
+                <div class="block">
+                    <label class="label" for="name">Name:</label>
+                    <input class="input" type="text" id="name" required>
+                </div>
+
+                <div class="block">
+                    <label class="label" for="email" required>Email:</label>
+                    <input class="input" type="email" id="email">
+                </div>
+
+                <div class="block">
+                    <label class="label" for="message">Message:</label>
+                    <textarea class="input" rows="4" cols="20" id="message"></textarea>
+                </div>
+
+                <input type="submit" id="contactMeSubmit">
+            </form>
+        </section>
+
+        <hr>
+
+        <footer>
+            <p>By: Luis Marin <br> <i>part of CSA</i></p>
+        </footer>
+
+    </main>
+</body>
+</html>
